@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.233);
+  background-color: white;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.05) rotate(-1deg);
+  }
+  &:active {
+    transform: scale(0.95) rotate(1deg);
+  }
+
+  .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

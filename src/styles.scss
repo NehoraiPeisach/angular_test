@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgb(231, 255, 220) 0%,
+    rgb(201, 227, 241) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  font-family: "Dosis", sans-serif;
+}

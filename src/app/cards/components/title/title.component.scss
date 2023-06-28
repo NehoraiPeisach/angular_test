@@ -1,0 +1,12 @@
+header {
+  margin: 1rem;
+  text-align: center;
+  font-size: 4rem;
+  color: brown;
+
+  &::before,
+  &::after {
+    content: " - ";
+    color: burlywood;
+  }
+}
